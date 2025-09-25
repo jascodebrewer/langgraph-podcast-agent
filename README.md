@@ -27,7 +27,7 @@ This repository contains two key examples:
 
 -   **Python 3.9+**
 -   **LangGraph & LangChain**: For building the stateful agent graph.
--   **GEMINI API**: For the core language model (GPT-4o-mini).
+-   **OPENAI/GEMINI API**: For the core language model.
 -   **Tavily Search API**: For real-time web research.
 -   **Jupyter Notebooks**: For interactive development and demonstration.
 
