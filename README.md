@@ -27,7 +27,7 @@ This repository contains two key examples:
 
 -   **Python 3.9+**
 -   **LangGraph & LangChain**: For building the stateful agent graph.
--   **OPENAI/GEMINI API**: For the core language model.
+-   **GEMINI API**: For the core language model.
 -   **Tavily Search API**: For real-time web research.
 -   **Jupyter Notebooks**: For interactive development and demonstration.
 
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 The agent requires API keys from GEMINI/OPENAI and Tavily. The easiest way to manage these is by creating a .env file in the root of the project directory.
 
 ```bash
-OPENAI_API_KEY="sk-..."
+GEMINI_API_KEY="sk-..."
 TAVILY_API_KEY="tvly-..."
 ```
 The Python scripts are configured to automatically load these keys.
